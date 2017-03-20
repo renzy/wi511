@@ -1,0 +1,38 @@
+{
+	"alerts": {
+		"name": "GetAlerts",
+		"description": "Returns a list of Alerts. These are also known as Floodgates and are the high priority messages scrolling across the header of the 511wi website."
+	},
+	"cameras": {
+		"name": "GetCameras",
+		"description": "Returns the configuration of all cameras in the 511wi system."
+	},
+	"incidents": {
+		"name": "GetIncidents",
+		"description": "Returns all active incidents. This data is updated every minute."
+	},
+	"mainlinelinks": {
+		"name": "GetMainlineLinks",
+		"description": "Returns the configuration and status of Vehicle Detector Station links within the 511wi system. This is defined as the portion of roadway between two vehicle detectors on a roadway."
+	},
+	"mainlineroutes": {
+		"name": "GetMainlineRoutes",
+		"description": "Returns the route configuration and status in the 511wi system. This includes travel time and average speed for interchange to interchange freeway segments updated every 60 seconds."
+	},
+	"messagesigns": {
+		"name": "GetMessageSigns",
+		"description": "Returns the configuration and status of all message signs within the 511wi system."
+	},
+	"roadways": {
+		"name": "GetRoadways",
+		"description": "Returns a list of roadways that are configured within the 511wi system."
+	},
+	"roadwork": {
+		"name": "GetRoadwork",
+		"description": "Returns all active or planned roadwork. This data is updated every minute."
+	},
+	"winterroadconditions": {
+		"name": "GetWinterRoadConditions",
+		"description": "Returns all active winter road condition events."
+	}
+}
